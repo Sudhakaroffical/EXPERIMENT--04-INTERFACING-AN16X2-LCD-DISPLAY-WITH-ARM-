@@ -192,7 +192,9 @@ int main(void)
   lcd = Lcd_create(ports, pins, GPIOB, GPIO_PIN_0, GPIOB, GPIO_PIN_1, LCD_4_BIT_MODE);
   Lcd_cursor(&lcd, 0,1);
   Lcd_string(&lcd, "DEPT- AI&ML");
+  Lcd_cursor(&lcd, 1,1);
   Lcd_string(&lcd, "Sudhakar");
+  
  
   while (1)
   {
@@ -226,6 +228,9 @@ void Error_Handler(void)
 ## Output screen shots of proteus  :
  
  ![SUDHAKAR EXP 4](https://user-images.githubusercontent.com/118622513/235610204-ccb630ea-0874-46c2-ad5d-a21039b6d4a8.jpg)
+ 
+ 
+![LAYOUT](https://github.com/Sudhakaroffical/EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM-/assets/118622513/066c846b-6f31-45b6-b296-690c8aa420b1)
 
 
  
